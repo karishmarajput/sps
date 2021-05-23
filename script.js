@@ -84,9 +84,9 @@ function rpsFrontEnd(humanImageChoice,botImageChoice,finalMessage){
 
 }
 function earlystate(){
-     document.getElementById("flex-box-rps-div").innerHTML =   '<img src="https://storage.needpix.com/rsynced_images/rock-576669_1280.png" height=150 width=150 alt="stone"id="rock"onclick="rpsGame(this)">'+
-     '<img src="http://clipart-library.com/img/1788589.png"alt="paper" height=150 width=150 id="paper"onclick="rpsGame(this)">'+
-     '<img src="https://www.seekpng.com/png/detail/414-4146875_quizs-tambin-le-interese-animated-scissors-cutting-png.png" alt="scissors" height=200 width=200 id="scissors"onclick="rpsGame(this)">'
+     document.getElementById("flex-box-rps-div").innerHTML =   '<img src="./static/rock-img.jpg" height=150 width=150 alt="stone"id="rock"onclick="rpsGame(this)">'+
+     '<img src="./static/paper-img.jpg"alt="paper" height=150 width=150 id="paper"onclick="rpsGame(this)">'+
+     '<img src="./static/scissors-img.jpg" alt="scissors" height=200 width=200 id="scissors"onclick="rpsGame(this)">'
 
 
 
